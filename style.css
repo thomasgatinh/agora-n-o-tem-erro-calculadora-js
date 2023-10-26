@@ -1,50 +1,5 @@
-/* Estilizando o título principal */
-h1 {
-    color: #333; /* Cor do texto */
-    text-align: center; /* Alinhamento do texto */
-}
-
-/* Estilizando os campos de entrada e rótulos do formulário */
-label {
-    display: block; /* Faz com que os rótulos ocupem uma linha separada */
-    margin: 10px 0; /* Espaçamento entre os rótulos */
-}
-
-input {
-    width: 100%; /* Largura total dos campos de entrada */
-    padding: 5px; /* Espaçamento interno dos campos de entrada */
-    margin: 5px 0; /* Espaçamento entre os campos de entrada */
-    border: 1px solid #ddd; /* Borda dos campos de entrada */
-}
-
-/* Estilizando o botão de cálculo */
-#calcular {
-    width: 100%; /* Largura total do botão */
-    padding: 10px; /* Espaçamento interno do botão */
-    background-color: #0074D9; /* Cor de fundo do botão */
-    color: white; /* Cor do texto do botão */
-    border: none; /* Remove a borda do botão */
-    cursor: pointer; /* Transforma o cursor em uma mão ao passar o mouse sobre o botão */
-}
-
-/* Estilizando a seção de resultados */
-h2 {
-    color: #333;
-}
-
-#resultado {
-    color: #333;
-    font-weight: bold;
-}
-
-/* Estilizando o corpo da página */
-body {
-    font-family: Arial, sans-serif; /* Família de fontes padrão */
-    margin: 0; /* Remove a margem padrão do corpo */
-    padding: 0; /* Remove o preenchimento padrão do corpo */
-    background-color: #f0f0f0; /* Cor de fundo da página */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+body{
+    text-align: center;
+    display: block;
+    background-color: darkgrey;
 }

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Colisão Inelástica</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="myscript.js"></script>
+</head>
+<body>
+    <div>
+        <h1>Calculadora de Colisão Inelástica</h1>
+        <form action="#" method="post" id="formulario">
+            <!-- Velocidade inicial do objeto 1 -->
+            <label for="velocidadeinicial1">Velocidade Inicial do Objeto 1 (m/s)</label>
+            <input type="number" name="v1" id="velocidadeinicial1">
+            
+            <!-- Velocidade inicial do objeto 2 -->
+            <label for="velocidadeinicial2">Velocidade Inicial do Objeto 2 (m/s)</label>
+            <input type="number" name="v2" id="velocidadeinicial2">
+
+            <!-- Massa do objeto 1 -->
+            <label for="massa1">Massa do Objeto 1 (kg)</label>
+            <input type="number" name="m1" id="massa1">
+            
+            <!-- Massa do objeto 2 -->
+            <label for="massa2">Massa do Objeto 2 (kg)</label>
+            <input type="number" name="m2" id="massa2">
+
+            <!-- Botão para calcular a colisão inelástica -->
+            <button type="button" id="calcular">Calcule</button>
+        </form>
+
+        <!-- Resultado -->
+        <div>
+            <h2>Resultado da Colisão</h2>
+            <p id="resultado">Resultado: </p>
+        </div>
+    </div>
+</body>
+</html>
